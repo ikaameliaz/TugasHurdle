@@ -1,4 +1,4 @@
-#hurdle 1
+#hurdle ke 1
 #function dengan nama jalan
 def jalan():
     move()
@@ -29,7 +29,8 @@ jump()
 #cetak output
 print (output)
 
-#hurdle 2
+
+#hurdle ke 2
 def jalan():
     move()
     turn_left()
@@ -56,8 +57,7 @@ while at_goal()==False:
 print (output)
 
 
-
-#hurdle 3
+#hurdle ke 3
 def lompat():
     while not wall_in_front():
         move()
@@ -84,7 +84,7 @@ while not at_goal():
 print (output)
 
 
-#hurdle 4
+#hurdle ke 4
 def turn_right():
     turn_left()
     turn_left()
@@ -110,5 +110,3 @@ while not at_goal():
 
 #cetak output
 print (output)
-
-    
